@@ -1,0 +1,12 @@
+{
+  "name": "tsloader",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": "./node-ts-loader.js",
+  "scripts": {
+    "test": "node --import=./loader.js --test"
+  },
+  "dependencies": {
+    "typescript": "*"
+  }
+}
