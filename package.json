@@ -1,8 +1,12 @@
 {
   "name": "@sosoba/tsl",
+  "version": "1.0.0",
   "description": "NodeJS transpile Typescript loader",
   "keywords": ["NodeJS", "typescript", "transpile", "loader"],
-  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sosoba/tsl.git"
+  },
   "type": "module",
   "exports": "./node-ts-loader.js",
   "dependencies": {
