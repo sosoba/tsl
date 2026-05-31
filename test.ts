@@ -11,6 +11,6 @@ new (class {
 })("test");
 
 const { stack } = new Error();
-ok(stack?.includes("enum.test.ts:13:19"), stack);
+ok(stack?.includes("test.ts:13:19"), stack);
 
 export const B = 3;
