@@ -5,7 +5,7 @@ Allows you to run in NodeJS Typescript code that requires transpilatione (enums,
 ## Ussage:
 
 ```bash
-npm i -D tsloader
+npm i -D @sosoba/tsl
 
-node --import=tsloader ./module.ts
+node --import=@sosoba/tsl ./appliaction.ts
 ```

@@ -1,11 +1,10 @@
 {
-  "name": "tsloader",
+  "name": "@sosoba/tsl",
+  "description": "NodeJS transpile Typescript loader",
+  "keywords": ["NodeJS", "typescript", "transpile", "loader"],
   "version": "1.0.0",
   "type": "module",
   "exports": "./node-ts-loader.js",
-  "scripts": {
-    "test": "node --import=./loader.js --test"
-  },
   "dependencies": {
     "typescript": "*"
   }
